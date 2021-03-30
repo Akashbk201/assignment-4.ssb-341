@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+.container {
+    max-width: 1170px;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+
+/* header area */
+.header-area {
+    display: flex;
+    height: 500px;
+}
+.left-header {
+    flex-basis: 50%;
+    background-color: #31326f;
+}
+.right-header {
+    flex-basis: 50%;
+    background-image: url(images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.left-header h2 {
+    color: #e6dd3b;
+    font-size: 25px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+}
+
+ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    transition: 1s all ease;
+}
+
+ul.menu li a:hover {
+    color: #f7ea00;
+}
+
+.header-text {
+    margin-top: 110px;
+    margin-left: 150px;
+}
+
+.header-text h3 {
+    font-size: 25px;
+    color: #e6dd3b;
+    text-transform: capitalize;
+}
+
+.header-text h2 {
+    font-size: 60px;
+    width: 50%;
+    padding: 0;
+    color: #fff;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.header-text p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+/* about me sec */
+
+.about-me {
+    background-color: #dbf6e9;
+}
+
+.about-sec-text {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.about-sec-text h2 {
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #31326f;
+}
+
+.about-sec-text p {
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px 0px;
+}
+
+.about-sec-text a {
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #31326f;
+    background-color: #e6dd3b;
+    display: inline-block;
+    padding: 2px 12px;
+    margin-top: 15px;
+    z-index: 1;
+    transition: .5s all ease;
+    position: relative;
+}
+
+.about-sec-text a:before {content: "";position: absolute;top: 0;left: 0;width: 0%;height: 100%;background-color: #31326f;z-index: -1;transition: 1s all ease;}
+
+.about-sec-text a:hover::before {
+    width: 100%;
+}
+
+.about-sec-text a:hover {
+    color: #fff;
+}
+
+/* video sec */
+.img-sec a img {
+    width: 100%;
+}
+
+h2.title {
+    font-size: 35px;
+    text-align: center;
+    padding: 30px 0px;
+    text-transform: capitalize;
+    color: #31326f;
+    font-weight: 700;
+}
+
+/* portfolio sec */
+
+.port-single img {
+    width: 100%;
+    height: 300px;
+}
+.upper-sec {
+    display: flex;
+}
+
+.img1 {
+    flex-basis: 30%;
+    padding: 5px;
+}
+
+.img2 {
+    flex-basis: 40%;
+    padding: 5px;
+}
+
+.img3 {
+    flex-basis: 30%;
+    padding: 5px;
+}
+
+
+.img4 {
+    flex-basis: 50%;
+    padding: 5px;
+}
+
+.img5 {
+    flex-basis: 30%;
+    padding: 5px;
+}
+
+.img6 {
+    flex-basis: 20%;
+    padding: 5px;
+}
+
+.portfolio-post {
+    padding-bottom: 50px;
+}
+
+/* footer sec */
+.footer-sec {
+    display: flex;
+    height: 600px;
+}
+.footer-left {
+    flex-basis: 50%;
+    background-image: url(images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer-right {
+    flex-basis: 50%;
+    background-color: #31326f;
+    padding: 50px 0px;
+}
+
+.color {
+    color: #e6dd3b !important;
+    text-align: left !important;
+    padding: 0px !important;
+    margin-left: 60px;
+}
+
+
+.footer-right h3 {
+    font-size: 25px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-left: 60px;
+}
+
+ul.adress {
+    list-style: none;
+    margin: 0;
+    padding: 20px 0px;
+    margin-left: 60px;
+}
+
+ul.adress li span {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+ul.adress li {
+    color: #fff;
+    font-weight: 100;
+}
+
+
+/* social links */
+.social-link {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.social-post p {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+ul.sc-link {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.sc-link li {
+    display: inline-block;
+    padding: 15px 25px;
+}
+
+ul.sc-link li a {
+    color: #000;
+    font-size: 30px;
+    transition: 1s all ease;
+}
+
+ul.sc-link li a:hover {
+    color: #31326f;
+}
+
+
+
+
+
+
+
+
+
+
